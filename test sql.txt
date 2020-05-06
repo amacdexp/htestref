@@ -1,0 +1,20 @@
+--------------
+--HTEST
+--------------
+connect HTEST_HDI_DB_1_3BPYY8JPGO2QZ0KOT89836MSW_RT password "Or4iql_k.2sRx14gmBFGXNPwO6BAbWlT7oTsaJd5Dxqq0Os1xWRXHHnI7mlsSNx2FdxgbSKrnOa9DQ1Q0GGvQbpia3Ke86Xjm7Pgu-_RzqTMGLE34zwf_fMv0IhZXpgW";
+
+
+SELECT * FROM "HTEST_HDI_DB_1"."table1";
+
+insert into  "HTEST_HDI_DB_1"."table1" values (1, 'ARON');
+
+
+--------------
+--HTESTREF
+--------------
+connect HTESTREF_HDI_DB_1_66M8YURZWJ7QYGPMTJGWJB5I9_RT password "Vb1IxUp37OaN0P.HdSEVnurU_niX1F6JnROhEJyYIUZB.wXXcBfDFluu3GBEnfn1MXdZ.4lApnuxhtTVUA2quywv_bQPznPxNivPtNQ_kSllq_UgC61_SgH1n7_XYTXO";
+
+SELECT * FROM "HTESTREF_HDI_DB_1"."table1";
+SELECT * FROM "HTESTREF_HDI_DB_1"."table2";
+
+insert into  "HTESTREF_HDI_DB_1"."table2" values (1, 'ARON REF');
