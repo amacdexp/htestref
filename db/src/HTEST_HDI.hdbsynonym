@@ -1,0 +1,9 @@
+{
+  "table1": {
+    "target": {
+      "object": "table1",
+      "schema": "HTEST_HDI_DB_1",
+      "database": "H00"
+    }
+  }
+}
